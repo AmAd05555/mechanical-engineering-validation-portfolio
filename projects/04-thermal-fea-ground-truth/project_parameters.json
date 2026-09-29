@@ -1,0 +1,24 @@
+{
+  "geometry_mm": {
+    "length": 200,
+    "width": 30,
+    "thickness": 4
+  },
+  "material": {
+    "name": "Aluminum",
+    "k_W_mK": 205.0,
+    "density_kg_m3": 2700.0,
+    "cp_J_kgK": 900.0
+  },
+  "boundary_conditions": {
+    "base_temperature_C": 100.0,
+    "ambient_temperature_C": 25.0,
+    "h_W_m2K": 15.0
+  },
+  "analytical_targets": {
+    "tip_temperature_C": 63.08191939285851,
+    "base_heat_W": 10.235133743126303,
+    "m_1_m": 6.439209162167846,
+    "Bi_thickness": 0.00014634146341463414
+  }
+}

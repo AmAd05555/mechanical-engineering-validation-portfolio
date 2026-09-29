@@ -1,0 +1,15 @@
+Item,Part Number,Description,Qty,Material / Spec,Process / Note
+1,SL-001,Base Plate,1,"Mild steel, 8 mm",Laser cut / machined
+2,SL-002,Top Platform,1,"Mild steel, 6 mm",Laser cut / machined slots
+3,SL-003,Scissor Arm,4,"Mild steel, 30 x 6 flat",Laser cut / drilled
+4,SL-004,Pivot Pin Ø10,10,Steel,Turned
+5,SL-005,Fixed Pivot Bracket,4,Mild steel,Machined / welded or bolted
+6,SL-006,Lower Slider Block,2,Steel / bronze bush,Machined
+7,SL-007,Top Slider Block,2,Steel / roller option,Machined
+8,SL-008,Cross Carriage,1,Mild steel,Machined
+9,SL-009,Lead Screw TR12x3 (concept),1,Steel,Purchased / threaded
+10,SL-010,Lead Nut,1,Bronze or polymer nut,Purchased / machined
+11,SL-011,Lead Screw Support,2,Steel,Machined
+12,SL-012,Hand Knob Ø50,1,Aluminum / polymer,Purchased or machined
+13,STD-001,M6 Fasteners,12,Class 8.8,Purchased
+14,STD-002,Washers / Retainers,10,Steel,Purchased

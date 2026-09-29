@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "problem": "Steady-state conduction in a straight rectangular fin with side and tip convection",
+  "analytic_tip_temperature_C": 63.081919,
+  "fine_mesh_tip_temperature_C": 63.081467,
+  "fine_mesh_tip_excess_error_pct": 0.001188,
+  "analytic_base_heat_W": 10.235134,
+  "fine_mesh_base_heat_W": 10.235286,
+  "fine_mesh_base_heat_error_pct": 0.001492,
+  "energy_balance_error_pct": 0.0,
+  "acceptance_criteria": {
+    "tip_excess_temperature_error_pct_max": 1.0,
+    "base_heat_error_pct_max": 1.0,
+    "energy_balance_error_pct_max": 0.5
+  }
+}

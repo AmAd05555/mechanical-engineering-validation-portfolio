@@ -1,0 +1,76 @@
+{
+  "parameters": {
+    "base_l": 220,
+    "base_w": 140,
+    "base_t": 8,
+    "slot_l": 90,
+    "slot_w": 9.0,
+    "slot_offset": 45,
+    "slider_l": 130,
+    "slider_w": 110,
+    "slider_t": 10,
+    "motor_pitch_x": 70,
+    "motor_pitch_y": 50,
+    "motor_hole_d": 8.5,
+    "guide_hole_d": 10.5,
+    "pin_d": 10,
+    "travel": 40,
+    "edge_fillet": 4
+  },
+  "validation": [
+    {
+      "check": "slot_clearance",
+      "status": "FAIL",
+      "actual": -1.0,
+      "expected": "> 0 mm radial/diametral clearance"
+    },
+    {
+      "check": "guide_hole_clearance",
+      "status": "PASS",
+      "actual": 0.5,
+      "expected": "> 0 mm"
+    },
+    {
+      "check": "slider_smaller_than_base_X",
+      "status": "PASS",
+      "actual": 130,
+      "expected": "< 220"
+    },
+    {
+      "check": "slider_smaller_than_base_Y",
+      "status": "PASS",
+      "actual": 110,
+      "expected": "< 140"
+    },
+    {
+      "check": "requested_travel_within_slot",
+      "status": "PASS",
+      "actual": 40,
+      "expected": "<= 40.00 mm"
+    },
+    {
+      "check": "motor_pattern_inside_slider_X",
+      "status": "PASS",
+      "actual": 39.25,
+      "expected": "< 65.0"
+    },
+    {
+      "check": "motor_pattern_inside_slider_Y",
+      "status": "PASS",
+      "actual": 29.25,
+      "expected": "< 55.0"
+    },
+    {
+      "check": "base_geometry_build",
+      "status": "PASS",
+      "actual": 231572.5,
+      "expected": "> 0"
+    },
+    {
+      "check": "slider_geometry_build",
+      "status": "PASS",
+      "actual": 138921.14,
+      "expected": "> 0"
+    }
+  ]
+}
