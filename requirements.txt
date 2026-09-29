@@ -1,0 +1,6 @@
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+# CadQuery is required only for regenerating the parametric CAD benchmark.
+# Installation may be easier through conda-forge depending on platform.
+cadquery>=2.4

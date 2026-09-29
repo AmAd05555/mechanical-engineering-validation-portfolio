@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary engineering files
+~$*
+*.bak
+*.tmp
+
+# Generated local rebuilds
+projects/02-parametric-cad-validation/generated_full_project/
