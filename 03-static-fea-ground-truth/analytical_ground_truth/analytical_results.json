@@ -1,0 +1,13 @@
+{
+  "second_moment_area_mm4": 22500.0,
+  "root_bending_moment_Nmm": 150000.0,
+  "root_surface_bending_stress_MPa": 100.0,
+  "tip_deflection_mm": 0.6613756613756614,
+  "nominal_factor_of_safety_vs_yield": 2.5,
+  "formulas": {
+    "I": "t*h^3/12",
+    "sigma_root": "P*L*(h/2)/I",
+    "delta_tip": "P*L^3/(3*E*I)",
+    "FOS": "yield_strength/sigma_root"
+  }
+}

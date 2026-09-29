@@ -1,0 +1,315 @@
+{
+  "harness_version": "1.0",
+  "input_hashes": {
+    "cad": "c0f95bf18fc25b872c232319e3dfdd6dc4ab4254cc208df30f9841d5961d255e",
+    "static_fea": "0f18914d3fb6295872b2948bcd48c7bbb9e4bb438306e9fe5ce5ac714c5046b6",
+    "thermal_fea": "b49f004549a2a4af1ffccca22b6df068fec9809602105b47771f59401dcf0470",
+    "rules": "0b41e9300184878d2e2f7cff2d6f1b594f52cd1eb4643087ddd698301ce1bfd8"
+  },
+  "weights": {
+    "cad": 0.3,
+    "static_fea": 0.4,
+    "thermal_fea": 0.3
+  },
+  "overall_score": 44.818,
+  "threshold_score": 85.0,
+  "status": "FAIL",
+  "domains": {
+    "cad": {
+      "domain": "CAD",
+      "score": 92.593,
+      "pass": false,
+      "checks_total": 27,
+      "checks_passed": 25,
+      "pass_ratio": 0.925926,
+      "critical_failures": [
+        {
+          "configuration": "Standard",
+          "check": "requested_travel_within_slot",
+          "status": "FAIL",
+          "actual": 55,
+          "expected": "<= 40.00 mm"
+        },
+        {
+          "configuration": "Standard",
+          "check": "base_geometry_build",
+          "status": "FAIL",
+          "actual": 0,
+          "expected": "> 0"
+        }
+      ],
+      "details": [
+        {
+          "configuration": "Compact",
+          "check": "slot_clearance",
+          "status": "PASS",
+          "actual": 2,
+          "expected": "> 0 mm radial/diametral clearance"
+        },
+        {
+          "configuration": "Compact",
+          "check": "guide_hole_clearance",
+          "status": "PASS",
+          "actual": 0.5,
+          "expected": "> 0 mm"
+        },
+        {
+          "configuration": "Compact",
+          "check": "slider_smaller_than_base_X",
+          "status": "PASS",
+          "actual": 110,
+          "expected": "< 190"
+        },
+        {
+          "configuration": "Compact",
+          "check": "slider_smaller_than_base_Y",
+          "status": "PASS",
+          "actual": 90,
+          "expected": "< 120"
+        },
+        {
+          "configuration": "Compact",
+          "check": "requested_travel_within_slot",
+          "status": "PASS",
+          "actual": 28,
+          "expected": "<= 30.00 mm"
+        },
+        {
+          "configuration": "Compact",
+          "check": "motor_pattern_inside_slider_X",
+          "status": "PASS",
+          "actual": 34.25,
+          "expected": "< 55.0"
+        },
+        {
+          "configuration": "Compact",
+          "check": "motor_pattern_inside_slider_Y",
+          "status": "PASS",
+          "actual": 24.25,
+          "expected": "< 45.0"
+        },
+        {
+          "configuration": "Compact",
+          "check": "base_geometry_build",
+          "status": "PASS",
+          "actual": 167308.81,
+          "expected": "> 0"
+        },
+        {
+          "configuration": "Compact",
+          "check": "slider_geometry_build",
+          "status": "PASS",
+          "actual": 94921.14,
+          "expected": "> 0"
+        },
+        {
+          "configuration": "Extended",
+          "check": "slot_clearance",
+          "status": "PASS",
+          "actual": 2,
+          "expected": "> 0 mm radial/diametral clearance"
+        },
+        {
+          "configuration": "Extended",
+          "check": "guide_hole_clearance",
+          "status": "PASS",
+          "actual": 0.5,
+          "expected": "> 0 mm"
+        },
+        {
+          "configuration": "Extended",
+          "check": "slider_smaller_than_base_X",
+          "status": "PASS",
+          "actual": 150,
+          "expected": "< 260"
+        },
+        {
+          "configuration": "Extended",
+          "check": "slider_smaller_than_base_Y",
+          "status": "PASS",
+          "actual": 120,
+          "expected": "< 160"
+        },
+        {
+          "configuration": "Extended",
+          "check": "requested_travel_within_slot",
+          "status": "PASS",
+          "actual": 52,
+          "expected": "<= 55.00 mm"
+        },
+        {
+          "configuration": "Extended",
+          "check": "motor_pattern_inside_slider_X",
+          "status": "PASS",
+          "actual": 44.25,
+          "expected": "< 75.0"
+        },
+        {
+          "configuration": "Extended",
+          "check": "motor_pattern_inside_slider_Y",
+          "status": "PASS",
+          "actual": 34.25,
+          "expected": "< 60.0"
+        },
+        {
+          "configuration": "Extended",
+          "check": "base_geometry_build",
+          "status": "PASS",
+          "actual": 308108.81,
+          "expected": "> 0"
+        },
+        {
+          "configuration": "Extended",
+          "check": "slider_geometry_build",
+          "status": "PASS",
+          "actual": 175921.14,
+          "expected": "> 0"
+        },
+        {
+          "configuration": "Standard",
+          "check": "slot_clearance",
+          "status": "PASS",
+          "actual": 2,
+          "expected": "> 0 mm radial/diametral clearance"
+        },
+        {
+          "configuration": "Standard",
+          "check": "guide_hole_clearance",
+          "status": "PASS",
+          "actual": 0.5,
+          "expected": "> 0 mm"
+        },
+        {
+          "configuration": "Standard",
+          "check": "slider_smaller_than_base_X",
+          "status": "PASS",
+          "actual": 130,
+          "expected": "< 220"
+        },
+        {
+          "configuration": "Standard",
+          "check": "slider_smaller_than_base_Y",
+          "status": "PASS",
+          "actual": 110,
+          "expected": "< 140"
+        },
+        {
+          "configuration": "Standard",
+          "check": "requested_travel_within_slot",
+          "status": "FAIL",
+          "actual": 55,
+          "expected": "<= 40.00 mm"
+        },
+        {
+          "configuration": "Standard",
+          "check": "motor_pattern_inside_slider_X",
+          "status": "PASS",
+          "actual": 39.25,
+          "expected": "< 65.0"
+        },
+        {
+          "configuration": "Standard",
+          "check": "motor_pattern_inside_slider_Y",
+          "status": "PASS",
+          "actual": 29.25,
+          "expected": "< 55.0"
+        },
+        {
+          "configuration": "Standard",
+          "check": "base_geometry_build",
+          "status": "FAIL",
+          "actual": 0,
+          "expected": "> 0"
+        },
+        {
+          "configuration": "Standard",
+          "check": "slider_geometry_build",
+          "status": "PASS",
+          "actual": 138921.14,
+          "expected": "> 0"
+        }
+      ]
+    },
+    "static_fea": {
+      "domain": "Static FEA",
+      "score": 42.6,
+      "pass": false,
+      "details": [
+        {
+          "metric": "tip_deflection_error_pct",
+          "actual": 8.7,
+          "limit": 5.0,
+          "status": "FAIL",
+          "score": 13.0
+        },
+        {
+          "metric": "stress_error_pct",
+          "actual": 11.2,
+          "limit": 5.0,
+          "status": "FAIL",
+          "score": 0.0
+        },
+        {
+          "metric": "force_balance_error_pct",
+          "actual": 4.699434915285868e-10,
+          "limit": 0.1,
+          "status": "PASS",
+          "score": 100.0
+        },
+        {
+          "metric": "moment_balance_error_pct",
+          "actual": 4.474422894418239e-10,
+          "limit": 0.1,
+          "status": "PASS",
+          "score": 100.0
+        },
+        {
+          "metric": "nominal_root_stress_below_yield",
+          "actual": false,
+          "limit": true,
+          "status": "FAIL",
+          "score": 0.0
+        }
+      ],
+      "key_results": {
+        "analytical_tip_deflection_mm": 0.6613756613756614,
+        "fea_tip_deflection_mm": 0.6648412545068425,
+        "nominal_factor_of_safety": 2.5
+      }
+    },
+    "thermal_fea": {
+      "domain": "Thermal FEA",
+      "score": 0.0,
+      "pass": false,
+      "details": [
+        {
+          "metric": "tip_excess_temperature_error_pct",
+          "actual": 2.8,
+          "limit": 1.0,
+          "status": "FAIL",
+          "score": 0.0
+        },
+        {
+          "metric": "base_heat_error_pct",
+          "actual": 3.1,
+          "limit": 1.0,
+          "status": "FAIL",
+          "score": 0.0
+        },
+        {
+          "metric": "energy_balance_error_pct",
+          "actual": 1.4,
+          "limit": 0.5,
+          "status": "FAIL",
+          "score": 0.0
+        }
+      ],
+      "key_results": {
+        "analytic_tip_temperature_C": 63.081919,
+        "fea_tip_temperature_C": 63.081467,
+        "analytic_base_heat_W": 10.235134,
+        "fea_base_heat_W": 10.235286
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+domain,score,status
+cad,92.593,FAIL
+static_fea,42.6,FAIL
+thermal_fea,0.0,FAIL
+overall,44.818,FAIL

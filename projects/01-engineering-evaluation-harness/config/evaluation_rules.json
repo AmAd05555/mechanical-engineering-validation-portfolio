@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "weights": {
+    "cad": 0.3,
+    "static_fea": 0.4,
+    "thermal_fea": 0.3
+  },
+  "overall_pass_score": 85.0,
+  "require_each_domain_pass": true,
+  "cad": {
+    "minimum_pass_ratio": 1.0,
+    "critical_checks": [
+      "base_geometry_build",
+      "slider_geometry_build",
+      "requested_travel_within_slot",
+      "slot_clearance",
+      "guide_hole_clearance"
+    ]
+  },
+  "static_fea": {
+    "tip_deflection_error_pct_max": 5.0,
+    "stress_error_pct_max": 5.0,
+    "force_balance_error_pct_max": 0.1,
+    "moment_balance_error_pct_max": 0.1,
+    "require_below_yield": true
+  },
+  "thermal_fea": {
+    "tip_excess_temperature_error_pct_max": 1.0,
+    "base_heat_error_pct_max": 1.0,
+    "energy_balance_error_pct_max": 0.5
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "Compact": [
+    {
+      "check": "slot_clearance",
+      "status": "PASS",
+      "actual": 2,
+      "expected": "> 0 mm radial/diametral clearance"
+    },
+    {
+      "check": "guide_hole_clearance",
+      "status": "PASS",
+      "actual": 0.5,
+      "expected": "> 0 mm"
+    },
+    {
+      "check": "slider_smaller_than_base_X",
+      "status": "PASS",
+      "actual": 110,
+      "expected": "< 190"
+    },
+    {
+      "check": "slider_smaller_than_base_Y",
+      "status": "PASS",
+      "actual": 90,
+      "expected": "< 120"
+    },
+    {
+      "check": "requested_travel_within_slot",
+      "status": "PASS",
+      "actual": 28,
+      "expected": "<= 30.00 mm"
+    },
+    {
+      "check": "motor_pattern_inside_slider_X",
+      "status": "PASS",
+      "actual": 34.25,
+      "expected": "< 55.0"
+    },
+    {
+      "check": "motor_pattern_inside_slider_Y",
+      "status": "PASS",
+      "actual": 24.25,
+      "expected": "< 45.0"
+    },
+    {
+      "check": "base_geometry_build",
+      "status": "PASS",
+      "actual": 167308.81,
+      "expected": "> 0"
+    },
+    {
+      "check": "slider_geometry_build",
+      "status": "PASS",
+      "actual": 94921.14,
+      "expected": "> 0"
+    }
+  ],
+  "Standard": [
+    {
+      "check": "slot_clearance",
+      "status": "PASS",
+      "actual": 2,
+      "expected": "> 0 mm radial/diametral clearance"
+    },
+    {
+      "check": "guide_hole_clearance",
+      "status": "PASS",
+      "actual": 0.5,
+      "expected": "> 0 mm"
+    },
+    {
+      "check": "slider_smaller_than_base_X",
+      "status": "PASS",
+      "actual": 130,
+      "expected": "< 220"
+    },
+    {
+      "check": "slider_smaller_than_base_Y",
+      "status": "PASS",
+      "actual": 110,
+      "expected": "< 140"
+    },
+    {
+      "check": "requested_travel_within_slot",
+      "status": "PASS",
+      "actual": 40,
+      "expected": "<= 40.00 mm"
+    },
+    {
+      "check": "motor_pattern_inside_slider_X",
+      "status": "PASS",
+      "actual": 39.25,
+      "expected": "< 65.0"
+    },
+    {
+      "check": "motor_pattern_inside_slider_Y",
+      "status": "PASS",
+      "actual": 29.25,
+      "expected": "< 55.0"
+    },
+    {
+      "check": "base_geometry_build",
+      "status": "PASS",
+      "actual": 227468.81,
+      "expected": "> 0"
+    },
+    {
+      "check": "slider_geometry_build",
+      "status": "PASS",
+      "actual": 138921.14,
+      "expected": "> 0"
+    }
+  ],
+  "Extended": [
+    {
+      "check": "slot_clearance",
+      "status": "PASS",
+      "actual": 2,
+      "expected": "> 0 mm radial/diametral clearance"
+    },
+    {
+      "check": "guide_hole_clearance",
+      "status": "PASS",
+      "actual": 0.5,
+      "expected": "> 0 mm"
+    },
+    {
+      "check": "slider_smaller_than_base_X",
+      "status": "PASS",
+      "actual": 150,
+      "expected": "< 260"
+    },
+    {
+      "check": "slider_smaller_than_base_Y",
+      "status": "PASS",
+      "actual": 120,
+      "expected": "< 160"
+    },
+    {
+      "check": "requested_travel_within_slot",
+      "status": "PASS",
+      "actual": 52,
+      "expected": "<= 55.00 mm"
+    },
+    {
+      "check": "motor_pattern_inside_slider_X",
+      "status": "PASS",
+      "actual": 44.25,
+      "expected": "< 75.0"
+    },
+    {
+      "check": "motor_pattern_inside_slider_Y",
+      "status": "PASS",
+      "actual": 34.25,
+      "expected": "< 60.0"
+    },
+    {
+      "check": "base_geometry_build",
+      "status": "PASS",
+      "actual": 308108.81,
+      "expected": "> 0"
+    },
+    {
+      "check": "slider_geometry_build",
+      "status": "PASS",
+      "actual": 175921.14,
+      "expected": "> 0"
+    }
+  ]
+}
